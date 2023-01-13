@@ -33,17 +33,32 @@
           />
         </div>
       </form>
-      <form action="">
-        <div class="mt-[11px] text-sm">
-          <label for="email" class="text-bBlue font-semibold">Email</label
-          ><br />
-          <input
-            type="text"
-            placeholder="Masukkan email anda"
-            class="font-normal border border-cBlue rounded-md w-[420px] h-[45px] mt-1 pl-[10px]"
-          />
-        </div>
-      </form>
+      <div class="mt-[11px] text-sm text-bBlue font-semibold">Unit Kerja</div>
+      <div>
+        <select
+          name="unit"
+          id="unit_kerja"
+          class="mt-1 w-[420px] h-[45px] form-select appearance-none block px-[10px] text-sm font-normal text-gray-400 bg-white bg-clip-padding bg-no-repeat border border-solid border-cBlue rounded-md transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+        >
+          <option selected>Unit Kerja</option>
+          <option value="1">
+            Direktorat Guru dan Tenaga Kependidikan Madrasah
+          </option>
+          <option value="2">
+            Direktorat Kurikulum Sarana dan Prasarana, Kelembagaan dan Kesiswaan
+          </option>
+          <option value="3">Direktorat Pendidikan Agama Islam</option>
+          <option value="4">
+            Direktorat Pendidikan Diniyah dan Pondok Pesantren
+          </option>
+          <option value="5">
+            Direktorat Pendidikan Tinggi Keagamaan Islam
+          </option>
+          <option value="6">
+            Sekretariat Direktorat Jenderal Pendidikan Islam
+          </option>
+        </select>
+      </div>
       <form action="">
         <div class="mt-[11px] text-sm">
           <label for="phone" class="text-bBlue font-semibold">No.Telp</label
@@ -68,7 +83,7 @@
               <select
                 name="city"
                 id="city"
-                class="mt-1 w-[122px] h-[50px] form-select appearance-none block px-[10px] text-sm font-normal text-gray-400 bg-white bg-clip-padding bg-no-repeat border border-solid border-cBlue rounded-md transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+                class="mt-1 w-[122px] h-[45px] form-select appearance-none block px-[10px] text-sm font-normal text-gray-400 bg-white bg-clip-padding bg-no-repeat border border-solid border-cBlue rounded-md transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
               >
                 <option selected>Kota</option>
                 <option value="1">Jakarta</option>
@@ -83,7 +98,7 @@
             <div class="datepicker">
               <input
                 type="text"
-                class="mt-1 form-control block w-[282px] h-[50px] px-[10px] text-sm font-normal text-lBlue bg-white bg-clip-padding border border-solid border-cBlue rounded-md transition ease-in-out ml-4 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+                class="mt-1 form-control block w-[282px] h-[45px] px-[10px] text-sm font-normal text-lBlue bg-white bg-clip-padding border border-solid border-cBlue rounded-md transition ease-in-out ml-4 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
                 placeholder="DD/MM/YYYY"
               />
             </div>
@@ -97,29 +112,24 @@
         <select
           name="gender"
           id="gender"
-          class="mt-1 w-[420px] h-[50px] form-select appearance-none block px-[10px] text-sm font-normal text-gray-400 bg-white bg-clip-padding bg-no-repeat border border-solid border-cBlue rounded-md transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+          class="mt-1 w-[420px] h-[45px] form-select appearance-none block px-[10px] text-sm font-normal text-gray-400 bg-white bg-clip-padding bg-no-repeat border border-solid border-cBlue rounded-md transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
         >
           <option selected>Jenis Kelamin</option>
           <option value="1">Laki-Laki</option>
           <option value="2">Perempuan</option>
         </select>
       </div>
-      <div class="mt-[11px] font-semibold text-bBlue text-sm">Agama</div>
-      <div>
-        <select
-          name="religion"
-          id="religion"
-          class="mt-1 w-[420px] h-[50px] form-select appearance-none block px-[10px] text-sm font-normal text-gray-400 bg-white bg-clip-padding bg-no-repeat border border-solid border-cBlue rounded-md transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
-        >
-          <option selected>Agama</option>
-          <option value="1">Islam</option>
-          <option value="2">Kristen</option>
-          <option value="3">Katolik</option>
-          <option value="4">Hindu</option>
-          <option value="5">Buddha</option>
-          <option value="6">Konghucu</option>
-        </select>
-      </div>
+      <form action="">
+        <div class="mt-[14px] text-sm">
+          <label for="email" class="text-bBlue font-semibold">Email</label
+          ><br />
+          <input
+            type="text"
+            placeholder="Masukkan email anda"
+            class="font-normal border border-cBlue rounded-md w-[420px] h-[45px] mt-1 pl-[10px]"
+          />
+        </div>
+      </form>
       <div class="mt-[14px] ml-[229px] mb-10 text-lg font-extrabold">
         <button class="text-white bg-dBlue w-[192px] pt-[13px] pb-3 rounded-md">
           Next
