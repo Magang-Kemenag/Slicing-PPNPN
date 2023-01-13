@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        background-image: url("assets/Images/bg-regist.png");
+        background-size: cover;
+      }
+    </style>
+  </head>
+  <body class="flex flex-col min-h-screen">
+    <div class="form-register font-nunito ml-[473px]">
+      <div class="mt-[72px] font-extrabold text-bBlue text-2xl">Masuk</div>
+      <div class="mt-[3px] font-normal text-bBlue text-xl">
+        Buat Username dan Password
+      </div>
+      <form action="">
+        <div class="mt-[14px] text-sm">
+          <label for="nama" class="text-bBlue font-semibold">NIP</label><br />
+          <input
+            type="text"
+            placeholder="Masukkan NIP anda"
+            class="font-normal border border-cBlue rounded-md w-[420px] h-[45px] mt-1 pl-[10px]"
+          />
+        </div>
+      </form>
+      <form action="">
+        <div class="mt-[11px] text-sm">
+          <label for="email" class="text-bBlue font-semibold">Password</label
+          ><br />
+          <input
+            type="password"
+            placeholder="Masukkan Password yang akan dibuat"
+            class="font-normal border border-cBlue rounded-md w-[420px] h-[45px] mt-1 pl-[10px]"
+          />
+        </div>
+      </form>
+      <form action="">
+        <div class="mt-[11px] text-sm">
+          <label for="phone" class="text-bBlue font-semibold">Konfirmasi Password</label
+          ><br />
+          <input
+            type="password"
+            placeholder="Konfirmasi Password anda"
+            class="font-normal border border-cBlue rounded-md w-[420px] h-[45px] mt-1 pl-[10px]"
+          />
+        </div>
+      <div class="mt-[14px] ml-[229px] mb-10 text-lg font-extrabold">
+        <button class="text-white bg-dBlue w-[192px] pt-[13px] pb-3 rounded-md">
+          Next
+        </button>
+      </div>
+    </div>
+    <footer class="bg-lBlue py-[22px] text-center fixed inset-x-0 bottom-0">
+      Copyright © 2023 Kemenag RI. All Right Reserved
+    </footer>
+  </body>
+</html>
