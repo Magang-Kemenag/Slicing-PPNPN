@@ -726,6 +726,11 @@ video {
   padding-right: 10px;
 }
 
+.py-\[10px\] {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 .pl-\[10px\] {
   padding-left: 10px;
 }
