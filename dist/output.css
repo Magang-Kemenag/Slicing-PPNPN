@@ -526,18 +526,12 @@ video {
   bottom: 0px;
 }
 
-.m-auto {
-  margin: auto;
+.m-0 {
+  margin: 0px;
 }
 
-.mx-\[473px\] {
-  margin-left: 473px;
-  margin-right: 473px;
-}
-
-.mx-9 {
-  margin-left: 2.25rem;
-  margin-right: 2.25rem;
+.ml-\[628px\] {
+  margin-left: 628px;
 }
 
 .mt-\[100px\] {
@@ -550,6 +544,10 @@ video {
 
 .mt-0 {
   margin-top: 0px;
+}
+
+.ml-\[473px\] {
+  margin-left: 473px;
 }
 
 .mt-\[23px\] {
@@ -568,10 +566,6 @@ video {
   margin-top: 1rem;
 }
 
-.ml-\[473px\] {
-  margin-left: 473px;
-}
-
 .mt-\[11px\] {
   margin-top: 11px;
 }
@@ -580,16 +574,40 @@ video {
   margin-left: 2.25rem;
 }
 
-.ml-auto {
-  margin-left: auto;
+.mt-\[72px\] {
+  margin-top: 72px;
 }
 
-.ml-\[628px\] {
-  margin-left: 628px;
+.mt-\[3px\] {
+  margin-top: 3px;
+}
+
+.mt-\[14px\] {
+  margin-top: 14px;
+}
+
+.ml-4 {
+  margin-left: 1rem;
+}
+
+.ml-\[229px\] {
+  margin-left: 229px;
+}
+
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
+.block {
+  display: block;
 }
 
 .flex {
   display: flex;
+}
+
+.table {
+  display: table;
 }
 
 .h-\[45px\] {
@@ -616,6 +634,20 @@ video {
   width: 192px;
 }
 
+.w-\[122px\] {
+  width: 122px;
+}
+
+.w-\[282px\] {
+  width: 282px;
+}
+
+.appearance-none {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -630,6 +662,10 @@ video {
 
 .border-2 {
   border-width: 2px;
+}
+
+.border-solid {
+  border-style: solid;
 }
 
 .border-cBlue {
@@ -657,6 +693,19 @@ video {
   background-color: rgb(210 236 249 / var(--tw-bg-opacity));
 }
 
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-clip-padding {
+  background-clip: padding-box;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+
 .px-\[473px\] {
   padding-left: 473px;
   padding-right: 473px;
@@ -672,16 +721,25 @@ video {
   padding-bottom: 22px;
 }
 
-.pl-0\.5 {
-  padding-left: 0.125rem;
-}
-
-.pl-0 {
-  padding-left: 0px;
+.px-\[10px\] {
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .pl-\[10px\] {
   padding-left: 10px;
+}
+
+.pt-\[13px\] {
+  padding-top: 13px;
+}
+
+.pb-3 {
+  padding-bottom: 0.75rem;
+}
+
+.text-left {
+  text-align: left;
 }
 
 .text-center {
@@ -707,11 +765,6 @@ video {
   line-height: 1.25rem;
 }
 
-.text-base {
-  font-size: 1rem;
-  line-height: 1.5rem;
-}
-
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
@@ -733,9 +786,9 @@ video {
   font-weight: 300;
 }
 
-.text-dBlue {
+.text-bBlue {
   --tw-text-opacity: 1;
-  color: rgb(24 145 172 / var(--tw-text-opacity));
+  color: rgb(51 71 119 / var(--tw-text-opacity));
 }
 
 .text-aBlue {
@@ -748,11 +801,48 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.text-bBlue {
+.text-gray-400 {
   --tw-text-opacity: 1;
-  color: rgb(51 71 119 / var(--tw-text-opacity));
+  color: rgb(156 163 175 / var(--tw-text-opacity));
+}
+
+.text-lBlue {
+  --tw-text-opacity: 1;
+  color: rgb(210 236 249 / var(--tw-text-opacity));
 }
 
 .underline {
   text-decoration-line: underline;
+}
+
+.transition {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.ease-in-out {
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.focus\:border-blue-600:focus {
+  --tw-border-opacity: 1;
+  border-color: rgb(37 99 235 / var(--tw-border-opacity));
+}
+
+.focus\:bg-white:focus {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.focus\:text-gray-700:focus {
+  --tw-text-opacity: 1;
+  color: rgb(55 65 81 / var(--tw-text-opacity));
+}
+
+.focus\:outline-none:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
 }

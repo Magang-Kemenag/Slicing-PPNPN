@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        background-image: url("assets/Images/bg-regist.png");
+        background-size: cover;
+      }
+    </style>
+  </head>
+  <body class="flex flex-col min-h-screen">
+    <div class="form-register font-nunito ml-[473px]">
+      <div class="mt-[72px] font-extrabold text-bBlue text-2xl">Masuk</div>
+      <div class="mt-[3px] font-normal text-bBlue text-xl">
+        Silahkan Masukan Data Diri
+      </div>
+      <form action="">
+        <div class="mt-[14px] text-sm">
+          <label for="nama" class="text-bBlue font-semibold">Nama</label><br />
+          <input
+            type="text"
+            placeholder="Masukkan nama anda"
+            class="font-normal border border-cBlue rounded-md w-[420px] h-[45px] mt-1 pl-[10px]"
+          />
+        </div>
+      </form>
+      <form action="">
+        <div class="mt-[11px] text-sm">
+          <label for="email" class="text-bBlue font-semibold">Email</label
+          ><br />
+          <input
+            type="text"
+            placeholder="Masukkan email anda"
+            class="font-normal border border-cBlue rounded-md w-[420px] h-[45px] mt-1 pl-[10px]"
+          />
+        </div>
+      </form>
+      <form action="">
+        <div class="mt-[11px] text-sm">
+          <label for="phone" class="text-bBlue font-semibold">No.Telp</label
+          ><br />
+          <input
+            type="number"
+            placeholder="Masukkan No.Telp anda"
+            class="font-normal border border-cBlue rounded-md w-[420px] h-[45px] mt-1 pl-[10px]"
+          />
+        </div>
+      </form>
+      <table class="text-left mt-[11px] text-sm">
+        <tr>
+          <th><div class="text-bBlue font-semibold">Tempat Lahir</div></th>
+          <th>
+            <div class="text-bBlue font-semibold ml-4">Tanggal lahir</div>
+          </th>
+        </tr>
+        <tr>
+          <td>
+            <div>
+              <select
+                name="city"
+                id="city"
+                class="mt-1 w-[122px] h-[50px] form-select appearance-none block px-[10px] text-sm font-normal text-gray-400 bg-white bg-clip-padding bg-no-repeat border border-solid border-cBlue rounded-md transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+              >
+                <option selected>Kota</option>
+                <option value="1">Jakarta</option>
+                <option value="2">Bandung</option>
+                <option value="3">Semarang</option>
+                <option value="4">Jogjakarta</option>
+                <option value="5">Surabaya</option>
+              </select>
+            </div>
+          </td>
+          <td>
+            <div class="datepicker">
+              <input
+                type="text"
+                class="mt-1 form-control block w-[282px] h-[50px] px-[10px] text-sm font-normal text-lBlue bg-white bg-clip-padding border border-solid border-cBlue rounded-md transition ease-in-out ml-4 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+                placeholder="DD/MM/YYYY"
+              />
+            </div>
+          </td>
+        </tr>
+      </table>
+      <div class="mt-[11px] font-semibold text-bBlue text-sm">
+        Jenis Kelamin
+      </div>
+      <div>
+        <select
+          name="gender"
+          id="gender"
+          class="mt-1 w-[420px] h-[50px] form-select appearance-none block px-[10px] text-sm font-normal text-gray-400 bg-white bg-clip-padding bg-no-repeat border border-solid border-cBlue rounded-md transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+        >
+          <option selected>Jenis Kelamin</option>
+          <option value="1">Laki-Laki</option>
+          <option value="2">Perempuan</option>
+        </select>
+      </div>
+      <div class="mt-[11px] font-semibold text-bBlue text-sm">Agama</div>
+      <div>
+        <select
+          name="religion"
+          id="religion"
+          class="mt-1 w-[420px] h-[50px] form-select appearance-none block px-[10px] text-sm font-normal text-gray-400 bg-white bg-clip-padding bg-no-repeat border border-solid border-cBlue rounded-md transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+        >
+          <option selected>Agama</option>
+          <option value="1">Islam</option>
+          <option value="2">Kristen</option>
+          <option value="3">Katolik</option>
+          <option value="4">Hindu</option>
+          <option value="5">Buddha</option>
+          <option value="6">Konghucu</option>
+        </select>
+      </div>
+      <div class="mt-[14px] ml-[229px] mb-10 text-lg font-extrabold">
+        <button class="text-white bg-dBlue w-[192px] pt-[13px] pb-3 rounded-md">
+          Next
+        </button>
+      </div>
+    </div>
+    <footer class="bg-lBlue py-[22px] text-center inset-x-0 bottom-0">
+      Copyright © 2023 Kemenag RI. All Right Reserved
+    </footer>
+  </body>
+</html>
