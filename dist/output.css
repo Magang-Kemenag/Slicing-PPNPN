@@ -688,6 +688,10 @@ video {
   margin-top: 35px;
 }
 
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
 .block {
   display: block;
 }
@@ -814,6 +818,10 @@ video {
 
 .w-\[179px\] {
   width: 179px;
+}
+
+.w-\[154px\] {
+  width: 154px;
 }
 
 .border-collapse {
