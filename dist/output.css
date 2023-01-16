@@ -688,6 +688,26 @@ video {
   margin-left: 560px;
 }
 
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
+.ml-\[250px\] {
+  margin-left: 250px;
+}
+
+.mt-\[15px\] {
+  margin-top: 15px;
+}
+
+.mt-\[20px\] {
+  margin-top: 20px;
+}
+
+.mt-\[30px\] {
+  margin-top: 30px;
+}
+
 .block {
   display: block;
 }
@@ -718,6 +738,14 @@ video {
 
 .h-\[253px\] {
   height: 253px;
+}
+
+.h-\[58px\] {
+  height: 58px;
+}
+
+.h-14 {
+  height: 3.5rem;
 }
 
 .min-h-screen {
@@ -780,6 +808,14 @@ video {
   width: 246px;
 }
 
+.w-6 {
+  width: 1.5rem;
+}
+
+.w-\[155px\] {
+  width: 155px;
+}
+
 .appearance-none {
   -webkit-appearance: none;
      -moz-appearance: none;
@@ -792,6 +828,18 @@ video {
 
 .items-center {
   align-items: center;
+}
+
+.space-y-4 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1rem * var(--tw-space-y-reverse));
+}
+
+.space-y-6 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));
 }
 
 .rounded-md {
@@ -883,6 +931,16 @@ video {
   padding-bottom: 0.75rem;
 }
 
+.py-\[17px\] {
+  padding-top: 17px;
+  padding-bottom: 17px;
+}
+
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
 .pl-\[10px\] {
   padding-left: 10px;
 }
@@ -893,6 +951,34 @@ video {
 
 .pt-\[171px\] {
   padding-top: 171px;
+}
+
+.pl-14 {
+  padding-left: 3.5rem;
+}
+
+.pt-\[17px\] {
+  padding-top: 17px;
+}
+
+.pl-\[779px\] {
+  padding-left: 779px;
+}
+
+.pt-10 {
+  padding-top: 2.5rem;
+}
+
+.pl-\[14px\] {
+  padding-left: 14px;
+}
+
+.pl-\[440px\] {
+  padding-left: 440px;
+}
+
+.pt-\[25px\] {
+  padding-top: 25px;
 }
 
 .text-left {
@@ -967,6 +1053,26 @@ video {
 
 .font-light {
   font-weight: 300;
+}
+
+.font-black {
+  font-weight: 900;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.leading-8 {
+  line-height: 2rem;
+}
+
+.leading-9 {
+  line-height: 2.25rem;
+}
+
+.tracking-widest {
+  letter-spacing: 0.1em;
 }
 
 .text-bBlue {
