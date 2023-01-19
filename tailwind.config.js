@@ -13,6 +13,7 @@ module.exports = {
         cBlue: "#65A8CA",
         dBlue: "#1891AC",
         lBlue: "#D2ECF9",
+        lgray: "#F1F7F8",
       },
     },
   },

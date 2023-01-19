@@ -3097,6 +3097,22 @@ html {
   margin-left: 560px;
 }
 
+.mt-\[46px\] {
+  margin-top: 46px;
+}
+
+.-mt-11 {
+  margin-top: -2.75rem;
+}
+
+.mt-\[65px\] {
+  margin-top: 65px;
+}
+
+.mt-9 {
+  margin-top: 2.25rem;
+}
+
 .block {
   display: block;
 }
@@ -3123,6 +3139,10 @@ html {
 
 .h-\[253px\] {
   height: 253px;
+}
+
+.h-32 {
+  height: 8rem;
 }
 
 .min-h-screen {
@@ -3221,6 +3241,10 @@ html {
   width: 246px;
 }
 
+.w-\[268px\] {
+  width: 268px;
+}
+
 .border-collapse {
   border-collapse: collapse;
 }
@@ -3302,6 +3326,11 @@ html {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-lgray {
+  --tw-bg-opacity: 1;
+  background-color: rgb(241 247 248 / var(--tw-bg-opacity));
 }
 
 .bg-clip-padding {
@@ -3395,6 +3424,46 @@ html {
 
 .pl-\[10px\] {
   padding-left: 10px;
+}
+
+.pl-9 {
+  padding-left: 2.25rem;
+}
+
+.pt-\[46px\] {
+  padding-top: 46px;
+}
+
+.pl-\[39px\] {
+  padding-left: 39px;
+}
+
+.pt-\[65px\] {
+  padding-top: 65px;
+}
+
+.pl-8 {
+  padding-left: 2rem;
+}
+
+.pt-10 {
+  padding-top: 2.5rem;
+}
+
+.pl-7 {
+  padding-left: 1.75rem;
+}
+
+.pl-6 {
+  padding-left: 1.5rem;
+}
+
+.pl-2 {
+  padding-left: 0.5rem;
+}
+
+.pt-6 {
+  padding-top: 1.5rem;
 }
 
 .text-left {
@@ -3503,6 +3572,11 @@ html {
 .text-lBlue {
   --tw-text-opacity: 1;
   color: rgb(210 236 249 / var(--tw-text-opacity));
+}
+
+.text-dBlue {
+  --tw-text-opacity: 1;
+  color: rgb(24 145 172 / var(--tw-text-opacity));
 }
 
 .underline {
