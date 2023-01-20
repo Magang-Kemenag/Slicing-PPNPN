@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        background-image: url("assets/Images/bg-admin.png");
+        background-size: cover;
+      }
+    </style>
+  </head>
+  <body class="flex flex-col min-h-screen">
+    <div class="drawer drawer-mobile">
+      <input id="my-drawer-2" type="checkbox" class="drawer-toggle" />
+      <div class="drawer-content">
+        <div
+          class="mt-[70px] font-nunito font-bold text-bBlue text-xl mx-[28px]"
+        >
+          < Kembali
+        </div>
+        <table
+          class="mt-[26px] text-base text-bBlue font-semibold font-nunito ml-[28px]"
+        >
+          <tr>
+            <th>
+              <table class="text-left">
+                <tr class="align-top">
+                  <td class="pt-[25px]">Nama</td>
+                  <td class="pt-[25px]">: Pieter Schrodinger</td>
+                </tr>
+                <tr class="pt-1 align-top">
+                  <td class="pt-1">NIP</td>
+                  <td class="pt-1">: nonpns19973423449234</td>
+                </tr>
+                <tr class="pt-1 align-top">
+                  <td>Unit Kerja</td>
+                  <td>: Direktorat Pendidikan Tinggi Islam</td>
+                </tr>
+                <tr class="pt-1 align-top">
+                  <td>TTL</td>
+                  <td>: -</td>
+                </tr>
+                <tr class="pt-1 align-top">
+                  <td>Jenis Kelamin</td>
+                  <td>: Laki-Laki</td>
+                </tr>
+                <tr class="pt-1 align-top">
+                  <td>Agama</td>
+                  <td>: -</td>
+                </tr>
+                <tr class="pt-1 align-top">
+                  <td>Alamat</td>
+                  <td>: -</td>
+                </tr>
+                <tr class="pt-1 align-top">
+                  <td>No.Telp</td>
+                  <td>: -</td>
+                </tr>
+                <tr class="pt-1 align-top">
+                  <td>Email</td>
+                  <td>: pieter@gmail.com</td>
+                </tr>
+                <tr class="pt-1 align-top">
+                  <td>Pendidikan</td>
+                  <td>: -</td>
+                </tr>
+              </table>
+            </th>
+            <th class="pl-[440px] align-top">
+              <button
+                class="bg-bBlue text-lg text-white font-extrabold h-[50px] w-[154px] rounded-md"
+              >
+                Export Data
+              </button>
+              <img
+                src="/src/assets/Images/stock-photo.png"
+                alt="foto-diri"
+                class="h-[195px] mt-3"
+              />
+              <button
+                class="bg-dBlue text-lg text-white font-extrabold h-[50px] w-[154px] rounded-md mt-3"
+              >
+                Edit Profil</button
+              ><br />
+              <button
+                class="border-2 border-bBlue text-bBlue font-extrabold rounded-md h-[48px] w-[152px] mt-3"
+              >
+                Hapus Data
+              </button>
+            </th>
+          </tr>
+        </table>
+        <footer
+          class="bg-lBlue font-nunito text-bBlue font-normal text-sm py-[22px] text-center fixed inset-x-0 bottom-0 mt-[90px]"
+        >
+          Copyright © 2023 Kemenag RI. All Right Reserved
+        </footer>
+        <!-- page content here -->
+        <label for="my-drawer-2" class="btn btn-primary drawer-button lg:hidden"
+          >Open Drawer</label
+        >
+      </div>
+      <div class="drawer-side">
+        <label for="my-drawer-2" class="drawer-overlay"></label>
+        <ul
+          class="menu p-4 w-[268px] bg-lgray text-dBlue font-nunito font-bold text-sm"
+        >
+          <!-- sidebar content here -->
+          <li class="text-2xl font-extrabold text-bBlue pt-6">
+            <a href="#">Laporan Pegawai</a>
+          </li>
+          <li class="pl-2 mt-9">
+            <a href="#"
+              ><img src="/src/assets/Images/home-logo.png" alt="home" />Home</a
+            >
+          </li>
+          <li class="pl-2">
+            <a href="#"
+              ><img
+                src="/src/assets/Images/data-logo.png"
+                alt="data_pegawai"
+              />Data Pegawai</a
+            >
+          </li>
+          <li class="pl-2 mt-2">
+            <a href="#"
+              ><img src="/src/assets/Images/door-logo.png" alt="logout" />LOG
+              OUT</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
