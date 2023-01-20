@@ -3259,6 +3259,38 @@ html {
   width: 210px;
 }
 
+.w-\[139px\] {
+  width: 139px;
+}
+
+.w-\[220px\] {
+  width: 220px;
+}
+
+.w-\[360px\] {
+  width: 360px;
+}
+
+.w-\[135px\] {
+  width: 135px;
+}
+
+.w-\[184px\] {
+  width: 184px;
+}
+
+.w-\[103px\] {
+  width: 103px;
+}
+
+.w-\[340px\] {
+  width: 340px;
+}
+
+.w-\[332px\] {
+  width: 332px;
+}
+
 .border-collapse {
   border-collapse: collapse;
 }
@@ -3421,6 +3453,11 @@ html {
   padding-right: 1.25rem;
 }
 
+.px-\[28px\] {
+  padding-left: 28px;
+  padding-right: 28px;
+}
+
 .pt-6 {
   padding-top: 1.5rem;
 }
@@ -3463,6 +3500,54 @@ html {
 
 .pl-\[10px\] {
   padding-left: 10px;
+}
+
+.pl-\[28px\] {
+  padding-left: 28px;
+}
+
+.pt-\[35px\] {
+  padding-top: 35px;
+}
+
+.pl-\[13px\] {
+  padding-left: 13px;
+}
+
+.pl-\[31px\] {
+  padding-left: 31px;
+}
+
+.pt-\[22px\] {
+  padding-top: 22px;
+}
+
+.pt-\[30px\] {
+  padding-top: 30px;
+}
+
+.pt-\[28px\] {
+  padding-top: 28px;
+}
+
+.pt-\[26px\] {
+  padding-top: 26px;
+}
+
+.pl-\[40px\] {
+  padding-left: 40px;
+}
+
+.pl-\[80px\] {
+  padding-left: 80px;
+}
+
+.pl-\[90px\] {
+  padding-left: 90px;
+}
+
+.pl-\[92px\] {
+  padding-left: 92px;
 }
 
 .text-left {

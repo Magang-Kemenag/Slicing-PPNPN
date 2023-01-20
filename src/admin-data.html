@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        background-image: url("assets/Images/bg-admin.png");
+        background-size: cover;
+      }
+    </style>
+  </head>
+  <body class="flex flex-col min-h-screen">
+    <div class="drawer drawer-mobile">
+      <input id="my-drawer-2" type="checkbox" class="drawer-toggle" />
+      <div class="drawer-content">
+        <div
+          class="mt-[70px] font-nunito font-extrabold text-[32px] text-bBlue text-3xl mx-[28px]"
+        >
+          Data Pegawai
+        </div>
+        <table class="mx-[28px] mt-9 font-nunito">
+            <tr>
+                <th class="font-semibold text-base pt-[26px] text-bBlue text-left">
+                    Cari Data Pegawai
+                </th>
+                <th class="pl-[28px] text-left">
+                    <form action="">
+                        <div class="text-sm">
+                            <label for="nip" class="font-semibold text-bBlue">NIP</label><br>
+                            <input type="text" placeholder="Cari NIP" class="font-normal bg-white border border-cBlue rounded-md w-[135px] h-[45px] mt-1 pl-[10px]">
+                        </div>
+                    </form>
+                </th>
+                <th class="pl-[13px] text-left">
+                    <form action="">
+                        <div class="text-sm">
+                            <label for="nama" class="font-semibold text-bBlue">Nama</label><br>
+                            <input type="text" placeholder="Cari Nama" class="font-normal bg-white border border-cBlue rounded-md w-[184px] h-[45px] mt-1 pl-[10px]">
+                        </div>
+                    </form>
+                </th>
+                <th class="pl-[13px] text-left">
+                    <form action="">
+                        <div class="text-sm">
+                            <label for="unit-kerja" class="font-semibold text-bBlue">Unit Kerja</label><br>
+                            <input type="text" placeholder="Cari Unit Kerja" class="font-normal bg-white border border-cBlue rounded-md w-[184px] h-[45px] mt-1 pl-[10px]">
+                        </div>
+                    </form>
+                </th>
+                <th class="pl-[13px] text-left">
+                    <form action="">
+                        <div class="text-sm">
+                            <label for="birthdate" class="font-semibold text-bBlue">Tanggal Lahir</label><br>
+                            <input type="text" placeholder="DD/MM/YYYY" class="font-normal bg-white border border-cBlue rounded-md w-[135px] h-[45px] mt-1 pl-[10px]">
+                        </div>
+                    </form>
+                </th>
+                <th class="pl-[92px] pt-[22px]">
+                    <button class="w-[103px] h-[45px] font-extrabold text-white text-lg bg-dBlue rounded-md">Cari</button>
+                </th>
+            </tr>
+        </table>
+        <table
+        class="mt-6 text-sm font-semibold font-nunito border border-collapse mx-[28px]"
+      >
+        <tr class="bg-bBlue text-white text-center">
+          <th>
+            <table>
+              <tr>
+                <th class="w-[139px]">NIP</th>
+                <th>
+                    <button class="pt-1.5">
+                        <img
+                          src="/src/assets/Images/sort-logo.png"
+                          alt="sort"
+                          class="w-[21px]"
+                        />
+                    </button>
+                </th>
+              </tr>
+            </table>
+          </th>
+          <th>
+            <table>
+              <tr>
+                <th class="w-[220px]">Nama</th>
+                <th>
+                  <button class="pt-1.5">
+                    <img src="/src/assets/Images/sort-logo.png" alt="sort" class="w-[21px]">
+                  </button>
+                </th>
+              </tr>
+            </table>
+          </th>
+          <th>
+            <table>
+              <tr>
+                <th class="w-[248px]">Unit Kerja</th>
+                <th>
+                    <button class="pt-1.5">
+                        <img
+                          src="/src/assets/Images/sort-logo.png"
+                          alt="sort"
+                          class="w-[21px]"
+                        />
+                    </button>
+                </th>
+              </tr>
+            </table>
+          </th>
+          <th>
+            <table>
+              <tr>
+                <th class="w-[332px]">Tanggal Lahir</th>
+                <th>
+                    <button class="pt-1.5">
+                        <img
+                          src="/src/assets/Images/sort-logo.png"
+                          alt="sort"
+                          class="w-[21px]"
+                        />
+                    </button>
+                </th>
+              </tr>
+            </table>
+          </th>
+        </tr>
+        <tr class="font-semibold text-bBlue bg-lBlue text-center">
+          <td class="py-1.5">nonpns193234245</td>
+          <td>Pieter Schrodinger</td>
+          <td>Sekretariat</td>
+          <td>
+            <table>
+              <tr>
+                <th class="w-[248px]">23/09/1987</td>
+                <th class="w-[111px]">
+                  <a href="#" class="underline">lihat</a>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr class="font-semibold text-bBlue bg-lBlue text-center">
+            <td class="py-1.5">nonpns192342497</td>
+            <td>Lee Hancock</td>
+            <td>Diktis</td>
+            <td>
+              <table>
+                <tr>
+                  <th class="w-[248px]">13/04/1945</td>
+                  <th class="w-[111px]">
+                    <a href="#" class="underline">lihat</a>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr class="font-semibold text-bBlue bg-lBlue text-center">
+            <td class="py-1.5">nonpns198987868</td>
+            <td>Budi Setiawan</td>
+            <td>Pontren</td>
+            <td>
+              <table>
+                <tr>
+                  <th class="w-[248px]">21/01/2000</td>
+                  <th class="w-[111px]">
+                    <a href="#" class="underline">lihat</a>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr class="font-semibold text-bBlue bg-lBlue text-center">
+            <td class="py-1.5">nonpns199347929</td>
+            <td>Agus Setilangit</td>
+            <td>KSKK</td>
+            <td>
+              <table>
+                <tr>
+                  <th class="w-[248px]">03/04/1956</td>
+                  <th class="w-[111px]">
+                    <a href="#" class="underline">lihat</a>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr class="font-semibold text-bBlue bg-lBlue text-center">
+            <td class="py-1.5">nonpns199834987</td>
+            <td>Andi Kumolonimbus</td>
+            <td>GTK</td>
+            <td>
+              <table>
+                <tr>
+                  <th class="w-[248px]">25/06/1978</td>
+                  <th class="w-[111px]">
+                    <a href="#" class="underline">lihat</a>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr class="font-semibold text-bBlue bg-lBlue text-center">
+            <td class="py-1.5">nonpns199932847</td>
+            <td>Lorem Ipsum</td>
+            <td>PAI</td>
+            <td>
+              <table>
+                <tr>
+                  <th class="w-[248px]">31/12/1999</td>
+                  <th class="w-[111px]">
+                    <a href="#" class="underline">lihat</a>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+      </table>
+        <footer
+          class="bg-lBlue font-nunito text-bBlue font-normal text-sm py-[22px] text-center fixed inset-x-0 bottom-0 mt-[90px]"
+        >
+          Copyright © 2023 Kemenag RI. All Right Reserved
+        </footer>
+        <!-- page content here -->
+        <label for="my-drawer-2" class="btn btn-primary drawer-button lg:hidden"
+          >Open Drawer</label
+        >
+      </div>
+      <div class="drawer-side">
+        <label for="my-drawer-2" class="drawer-overlay"></label>
+        <ul
+          class="menu p-4 w-[268px] bg-lgray text-dBlue font-nunito font-bold text-sm"
+        >
+          <!-- sidebar content here -->
+          <li class="text-2xl font-extrabold text-bBlue pt-6">
+            <a href="#">Laporan Pegawai</a>
+          </li>
+          <li class="pl-2 mt-9">
+            <a href="#"
+              ><img src="/src/assets/Images/home-logo.png" alt="home" />Home</a
+            >
+          </li>
+          <li class="pl-2">
+            <a href="#"
+              ><img
+                src="/src/assets/Images/data-logo.png"
+                alt="data_pegawai"
+              />Data Pegawai</a
+            >
+          </li>
+          <li class="pl-2 mt-2">
+            <a href="#"
+              ><img src="/src/assets/Images/door-logo.png" alt="logout" />LOG
+              OUT</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
