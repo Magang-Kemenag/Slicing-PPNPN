@@ -3637,6 +3637,26 @@ html {
   padding-left: 420px;
 }
 
+.pl-\[750px\] {
+  padding-left: 750px;
+}
+
+.pl-\[700px\] {
+  padding-left: 700px;
+}
+
+.pl-\[600px\] {
+  padding-left: 600px;
+}
+
+.pr-4 {
+  padding-right: 1rem;
+}
+
+.pr-6 {
+  padding-right: 1.5rem;
+}
+
 .text-left {
   text-align: left;
 }
