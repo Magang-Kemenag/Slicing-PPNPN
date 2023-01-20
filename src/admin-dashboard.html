@@ -20,7 +20,237 @@
   <body class="flex flex-col min-h-screen">
     <div class="drawer drawer-mobile">
       <input id="my-drawer-2" type="checkbox" class="drawer-toggle" />
-      <div class="drawer-content flex flex-col items-center justify-center">
+      <div class="drawer-content">
+        <div
+          class="mt-[70px] font-nunito font-extrabold text-[32px] text-bBlue text-3xl mx-[28px]"
+        >
+          Dashboard
+        </div>
+        <div class="shadow-lg rounded-lg overflow-hidden mx-[28px] mt-[33px]">
+          <canvas class="p-10 bg-white" id="chartLine"></canvas>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <script>
+          const labels = [
+            "January",
+            "February",
+            "March",
+            "April",
+            "May",
+            "June",
+          ];
+          const data = {
+            labels: labels,
+            datasets: [
+              {
+                label: "Tepat Waktu",
+                backgroundColor: "#334777",
+                borderColor: "#334777",
+                data: [0, 10, 5, 2, 20, 30, 45],
+              },
+              {
+                label: "Terlambat",
+                backgroundColor: "#65A8CA",
+                borderColor: "#65A8CA",
+                data: [20, 5, 15, 18, 0, 10, 30],
+              },
+            ],
+          };
+
+          const configLineChart = {
+            type: "line",
+            data,
+            options: {},
+          };
+
+          var chartLine = new Chart(
+            document.getElementById("chartLine"),
+            configLineChart
+          );
+        </script>
+        <table
+        class="mt-6 text-sm font-semibold border border-collapse mx-[28px]"
+      >
+        <tr class="bg-bBlue text-white text-center">
+          <th>
+            <table>
+              <tr>
+                <th class="w-[90px]">Tanggal</th>
+                <th>
+                    <button class="pt-1.5">
+                        <img
+                          src="/src/assets/Images/sort-logo.png"
+                          alt="sort"
+                          class="w-[21px]"
+                        />
+                    </button>
+                </th>
+              </tr>
+            </table>
+          </th>
+          <th>
+            <table>
+              <tr>
+                <th class="w-[210px]">Nama</th>
+                <th>
+                  <button class="pt-1.5">
+                    <img src="/src/assets/Images/sort-logo.png" alt="sort" class="w-[21px]">
+                  </button>
+                </th>
+              </tr>
+            </table>
+          </th>
+          <th>
+            <table>
+              <tr>
+                <th class="w-[229px]">Absen Masuk</th>
+                <th>
+                    <button class="pt-1.5">
+                        <img
+                          src="/src/assets/Images/sort-logo.png"
+                          alt="sort"
+                          class="w-[21px]"
+                        />
+                    </button>
+                </th>
+              </tr>
+            </table>
+          </th>
+          <th>
+            <table>
+              <tr>
+                <th class="w-[229px]">Absen Keluar</th>
+                <th>
+                    <button class="pt-1.5">
+                        <img
+                          src="/src/assets/Images/sort-logo.png"
+                          alt="sort"
+                          class="w-[21px]"
+                        />
+                    </button>
+                </th>
+              </tr>
+            </table>
+          </th>
+          <th>
+            <table>
+              <tr>
+                <th class="w-[339px]">Laporan</th>
+                <th>
+                    <button class="pt-1.5">
+                        <img
+                          src="/src/assets/Images/sort-logo.png"
+                          alt="sort"
+                          class="w-[21px]"
+                        />
+                    </button>
+                </th>
+              </tr>
+            </table>
+          </th>
+        </tr>
+        <tr class="font-semibold text-bBlue bg-lBlue text-center">
+          <td class="py-1.5">10/01/2023</td>
+          <td>Udin</td>
+          <td>07:30</td>
+          <td>15:30</td>
+          <td>
+            <table>
+              <tr>
+                <th class="w-[248px]">lorem ipsum dolor sit amet...</td>
+                <th class="w-[111px]">
+                  <a href="#" class="underline">lihat</a>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr class="font-semibold text-bBlue bg-lBlue text-center">
+            <td class="py-1.5">09/01/2023</td>
+            <td>Asep</td>
+            <td>07:00</td>
+            <td>16:00</td>
+            <td>
+              <table>
+                <tr>
+                  <th class="w-[248px]">menata buku-buku laporan...</td>
+                  <th class="w-[111px]">
+                    <a href="#" class="underline">lihat</a>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr class="font-semibold text-bBlue bg-lBlue text-center">
+            <td class="py-1.5">08/01/2023</td>
+            <td>Budi</td>
+            <td>07:43</td>
+            <td>15:43</td>
+            <td>
+              <table>
+                <tr>
+                  <th class="w-[248px]">Menyiapkan ruangan sidang...</td>
+                  <th class="w-[111px]">
+                    <a href="#" class="underline">lihat</a>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr class="font-semibold text-bBlue bg-lBlue text-center">
+            <td class="py-1.5">07/01/2023</td>
+            <td>Rudi</td>
+            <td>08:01</td>
+            <td>16:01</td>
+            <td>
+              <table>
+                <tr>
+                  <th class="w-[248px]">lorem ipsum dolor sit amet...</td>
+                  <th class="w-[111px]">
+                    <a href="#" class="underline">lihat</a>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr class="font-semibold text-bBlue bg-lBlue text-center">
+            <td class="py-1.5">06/01/2023</td>
+            <td>Udin</td>
+            <td>07:30</td>
+            <td>16:30</td>
+            <td>
+              <table>
+                <tr>
+                  <th class="w-[248px]">lorem ipsum dolor sit amet...</td>
+                  <th class="w-[111px]">
+                    <a href="#" class="underline">lihat</a>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr class="font-semibold text-bBlue bg-lBlue text-center">
+            <td class="py-1.5">05/01/2023</td>
+            <td>Asep</td>
+            <td>07:30</td>
+            <td>16:30</td>
+            <td>
+              <table>
+                <tr>
+                  <th class="w-[248px]">lorem ipsum dolor sit amet...</td>
+                  <th class="w-[111px]">
+                    <a href="#" class="underline">lihat</a>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+      </table>
+        <footer
+          class="bg-lBlue font-nunito text-bBlue font-normal text-sm py-[22px] text-center inset-x-0 bottom-0 mt-[90px]"
+        >
+          Copyright © 2023 Kemenag RI. All Right Reserved
+        </footer>
         <!-- page content here -->
         <label for="my-drawer-2" class="btn btn-primary drawer-button lg:hidden"
           >Open Drawer</label
@@ -57,10 +287,5 @@
         </ul>
       </div>
     </div>
-    <footer
-      class="bg-lBlue font-nunito text-bBlue font-normal text-sm py-[22px] text-center inset-x-0 bottom-0"
-    >
-      Copyright © 2023 Kemenag RI. All Right Reserved
-    </footer>
   </body>
 </html>
