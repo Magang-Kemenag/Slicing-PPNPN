@@ -3705,6 +3705,10 @@ html {
   align-items: flex-end;
 }
 
+.gap-9 {
+  gap: 2.25rem;
+}
+
 .overflow-hidden {
   overflow: hidden;
 }
@@ -3715,6 +3719,10 @@ html {
 
 .rounded-md {
   border-radius: 0.375rem;
+}
+
+.rounded {
+  border-radius: 0.25rem;
 }
 
 .rounded-l-lg {
@@ -3867,6 +3875,11 @@ html {
 .py-\[9px\] {
   padding-top: 9px;
   padding-bottom: 9px;
+}
+
+.px-\[192px\] {
+  padding-left: 192px;
+  padding-right: 192px;
 }
 
 .pt-1\.5 {
