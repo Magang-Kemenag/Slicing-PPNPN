@@ -125,7 +125,8 @@
                   <tr>
                     <th class="w-[248px]">lorem ipsum dolor sit amet...</td>
                     <th class="w-[111px]">
-                      <a href="#" class="underline">lihat</a>
+                      <!-- <a href="#" class="underline">lihat</a> -->
+                      <label for="laporan-harian" class="underline hover:text-black">lihat</label>
                     </td>
                   </tr>
                 </table>
@@ -140,7 +141,8 @@
                     <tr>
                       <th class="w-[248px]">menata buku-buku laporan...</td>
                       <th class="w-[111px]">
-                        <a href="#" class="underline">lihat</a>
+                        <!-- <a href="#" class="underline">lihat</a> -->
+                        <label for="laporan-harian" class="underline hover:text-black">lihat</label>
                       </td>
                     </tr>
                   </table>
@@ -155,7 +157,8 @@
                     <tr>
                       <th class="w-[248px]">Menyiapkan ruangan sidang...</td>
                       <th class="w-[111px]">
-                        <a href="#" class="underline">lihat</a>
+                        <!-- <a href="#" class="underline">lihat</a> -->
+                        <label for="laporan-harian" class="underline hover:text-black">lihat</label>
                       </td>
                     </tr>
                   </table>
@@ -170,7 +173,8 @@
                     <tr>
                       <th class="w-[248px]">lorem ipsum dolor sit amet...</td>
                       <th class="w-[111px]">
-                        <a href="#" class="underline">lihat</a>
+                        <!-- <a href="#" class="underline"></a> -->
+                        <label for="laporan-harian" class="underline hover:text-black">lihat</label>
                       </td>
                     </tr>
                   </table>
@@ -185,7 +189,8 @@
                     <tr>
                       <th class="w-[248px]">lorem ipsum dolor sit amet...</td>
                       <th class="w-[111px]">
-                        <a href="#" class="underline">lihat</a>
+                        <!-- <a href="#" class="underline">lihat</a> -->
+                        <label for="laporan-harian" class="underline hover:text-black">lihat</label>
                       </td>
                     </tr>
                   </table>
@@ -200,7 +205,8 @@
                     <tr>
                       <th class="w-[248px]">lorem ipsum dolor sit amet...</td>
                       <th class="w-[111px]">
-                        <a href="#" class="underline">lihat</a>
+                        <!-- <a href="#" class="underline">lihat</a> -->
+                        <label for="laporan-harian" class="underline hover:text-black">lihat</label>
                       </td>
                     </tr>
                   </table>
@@ -208,7 +214,8 @@
               </tr>
           </table>
           <div class="ml-[1000px] mt-12">
-            <button class="h-[50px] w-[179px] bg-dBlue text-white text-lg font-extrabold rounded-md px-[10px]">+ Tambah Laporan</button>
+            <label for="laporan-harian" class="btn font-nunito border-dBlue h-[50px] w-[179px] bg-dBlue text-white text-sm font-extrabold rounded-md px-[10px] ">+ Tambah Laporan</label>
+            <!-- <button class="h-[50px] w-[179px] bg-dBlue text-white text-lg font-extrabold rounded-md px-[10px]">+ Tambah Laporan</button> -->
           </div>
         </div>
       </div>
@@ -216,5 +223,28 @@
     <footer class="bg-lBlue text-bBlue py-[22px] text-center fixed inset-x-0 bottom-0">
       Copyright © 2023 Kemenag RI. All Right Reserved
     </footer>
+    <input type="checkbox" id="laporan-harian" class="modal-toggle">
+    <div class="modal">
+      <div class="modal-box bg-white font-nunito w-11/12 max-w-[937px] pl-12">
+        <label for="laporan-harian" class="btn btn-sm btn-circle absolute right-2 top-2 border-white bg-white"><img src="/src/assets/Images/close-logo.png" alt="close"></label>
+        <table>
+          <tr>
+            <th class="text-left">
+              <div class="font-extrabold text-bBlue text-xl">11/01/23</div>
+              <div class="font-bold text-bBlue text-xl pt-5">Pieter Schrodinger</div>
+              <div class="font-bold text-xl text-bBlue pt-1">07:30</div>
+              <div class="font-bold text-xl text-bBlue pt-1">15:30</div>
+              <div class="modal-action">
+            </th>
+            <th class="items-end">
+              <img src="/src/assets/Images/stock-photo.png" alt="picture" class="w-[120px] ml-[508px] pt-[63px]">
+            </th>
+          </tr>
+        </table>
+        <textarea name="laporan" id="report" cols="30" rows="10" class="mt-4 pl-[10px] pt-[10px] text-bBlue bg-white w-[802px] h-[150px] font-semibold border-2 border-bBlue rounded-md" placeholder="Tulis Laporan Anda">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident repudiandae, deserunt vitae magnam saepe fuga atque perspiciatis totam accusamus, consectetur maxime, architecto maiores! Cum illo voluptatum architecto necessitatibus ratione harum!</textarea>
+          <label for="laporan-harian" class="btn text-lg text-bBlue font-extrabold w-[162px] h-[50px] border-2 border-bBlue rounded-md bg-white mt-4">Cancel</label>
+          <label for="laporan-harian" class="btn text-lg text-white bg-dBlue font-extrabold w-[162px] h-[50px] rounded-md border-dBlue ml-[478px]">Submit</label>
+        </div>
+    </div>
   </body>
 </html>
