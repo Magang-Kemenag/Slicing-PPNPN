@@ -3226,6 +3226,11 @@ html {
   margin-bottom: auto;
 }
 
+.mx-\[72px\] {
+  margin-left: 72px;
+  margin-right: 72px;
+}
+
 .mt-\[70px\] {
   margin-top: 70px;
 }
@@ -3420,6 +3425,46 @@ html {
 
 .ml-\[478px\] {
   margin-left: 478px;
+}
+
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
+.ml-\[72px\] {
+  margin-left: 72px;
+}
+
+.mt-7 {
+  margin-top: 1.75rem;
+}
+
+.mt-20 {
+  margin-top: 5rem;
+}
+
+.ml-\[172px\] {
+  margin-left: 172px;
+}
+
+.ml-\[180px\] {
+  margin-left: 180px;
+}
+
+.ml-\[190px\] {
+  margin-left: 190px;
+}
+
+.ml-10 {
+  margin-left: 2.5rem;
+}
+
+.ml-8 {
+  margin-left: 2rem;
+}
+
+.ml-\[33px\] {
+  margin-left: 33px;
 }
 
 .block {
@@ -3630,6 +3675,10 @@ html {
   width: 973px;
 }
 
+.w-\[190px\] {
+  width: 190px;
+}
+
 .max-w-5xl {
   max-width: 64rem;
 }
@@ -3810,6 +3859,16 @@ html {
   padding-bottom: 1rem;
 }
 
+.py-\[19px\] {
+  padding-top: 19px;
+  padding-bottom: 19px;
+}
+
+.py-\[9px\] {
+  padding-top: 9px;
+  padding-bottom: 9px;
+}
+
 .pt-1\.5 {
   padding-top: 0.375rem;
 }
@@ -3908,6 +3967,14 @@ html {
 
 .pr-0 {
   padding-right: 0px;
+}
+
+.pl-\[125px\] {
+  padding-left: 125px;
+}
+
+.pl-\[200px\] {
+  padding-left: 200px;
 }
 
 .text-left {

@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        background-image: url("assets/Images/bg-admin.png");
+        background-size: cover;
+      }
+    </style>
+  </head>
+  <body class="flex flex-col min-h-screen">
+    <div class="drawer drawer-mobile">
+      <input id="my-drawer-2" type="checkbox" class="drawer-toggle" />
+      <div class="drawer-content">
+        <div
+          class="mt-[70px] font-nunito font-bold text-bBlue text-xl mx-[72px]"
+        >
+          <a href="/src/admin-data.html">Edit Profil</a>
+        </div>
+        <table
+          class="mt-[26px] ml-[72px] text-base font-semibold text-bBlue font-nunito"
+        >
+          <tr>
+            <th>
+              <table class="text-left font-semibold">
+                <tr class="s">
+                  <td class="pt-[25px]">Nama</td>
+                  <td class="pt-[25px] pl-4">
+                    <form action="">
+                      <input
+                        type="text"
+                        placeholder="Nama"
+                        class="font-normal bg-white border border-cBlue rounded-md w-[420px] h-[45px] mt-1 pl-[10px]"
+                      />
+                    </form>
+                  </td>
+                </tr>
+                <tr class="pt-1">
+                  <td>NIP</td>
+                  <td class="pl-4">
+                    <form action="">
+                      <input
+                        type="text"
+                        placeholder="NIP"
+                        class="font-normal bg-white border border-cBlue rounded-md w-[420px] h-[45px] mt-1 pl-[10px]"
+                      />
+                    </form>
+                  </td>
+                </tr>
+                <tr class="pt-1">
+                  <td>Unit Kerja</td>
+                  <td class="pl-4">
+                    <select
+                      name="unit"
+                      id="unit_kerja"
+                      class="mt-1 w-[420px] h-[45px] form-select appearance-none block px-[10px] text-sm font-normal text-gray-400 bg-white bg-clip-padding bg-no-repeat border border-solid border-cBlue rounded-md transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-black focus:outline-none"
+                    >
+                      <option selected>Unit Kerja</option>
+                      <option value="1">
+                        Direktorat Guru dan Tenaga Kependidikan Madrasah
+                      </option>
+                      <option value="2">
+                        Direktorat Kurikulum Sarana dan Prasarana, Kelembagaan
+                        dan Kesiswaan
+                      </option>
+                      <option value="3">
+                        Direktorat Pendidikan Agama Islam
+                      </option>
+                      <option value="4">
+                        Direktorat Pendidikan Diniyah dan Pondok Pesantren
+                      </option>
+                      <option value="5">
+                        Direktorat Pendidikan Tinggi Keagamaan Islam
+                      </option>
+                      <option value="6">
+                        Sekretariat Direktorat Jenderal Pendidikan Islam
+                      </option>
+                    </select>
+                  </td>
+                </tr>
+                <tr class="pt-1">
+                  <td>TTL</td>
+                  <td class="pl-4">
+                    <form action="">
+                      <input
+                        type="text"
+                        placeholder="DD/MM/YYYY"
+                        class="font-normal bg-white border border-cBlue rounded-md w-[420px] h-[45px] mt-1 pl-[10px]"
+                      />
+                    </form>
+                  </td>
+                </tr>
+                <tr class="pt-1">
+                  <td>Jenis Kelamin</td>
+                  <td class="pl-4">
+                    <select
+                      name="gender"
+                      id="gender"
+                      class="mt-1 w-[420px] h-[45px] form-select appearance-none block px-[10px] text-sm font-normal text-gray-400 bg-white bg-clip-padding bg-no-repeat border border-solid border-cBlue rounded-md transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-black focus:outline-none"
+                    >
+                      <option selected>Jenis Kelamin</option>
+                      <option value="1">Laki-Laki</option>
+                      <option value="2">Perempuan</option>
+                    </select>
+                  </td>
+                </tr>
+                <tr class="pt-1">
+                  <td>Agama</td>
+                  <td class="pl-4">
+                    <select
+                      name="unit"
+                      id="unit_kerja"
+                      class="mt-1 w-[420px] h-[45px] form-select appearance-none block px-[10px] text-sm font-normal text-gray-400 bg-white bg-clip-padding bg-no-repeat border border-solid border-cBlue rounded-md transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-black focus:outline-none"
+                    >
+                      <option selected>Agama</option>
+                      <option value="1">Islam</option>
+                      <option value="2">Kristen</option>
+                      <option value="3">Katolik</option>
+                      <option value="4">Hindu</option>
+                      <option value="5">Buddha</option>
+                      <option value="6">Khonghucu</option>
+                    </select>
+                  </td>
+                </tr>
+                <tr class="pt-1 align-top">
+                  <td>Alamat</td>
+                  <td class="pl-4">
+                    <textarea
+                      name="alamat"
+                      id="alamat"
+                      cols="30"
+                      rows="10"
+                      class="mt-1 pl-[10px] pt-[10px] text-bBlue font-normal border border-cBlue rounded-md bg-white w-[420px]"
+                      placeholder="Alamat"
+                    ></textarea>
+                  </td>
+                </tr>
+                <tr class="pt-1">
+                  <td>No.Telp</td>
+                  <td class="pl-4">
+                    <form action="">
+                      <input
+                        type="number"
+                        placeholder="No.Telp"
+                        class="font-normal bg-white border border-cBlue rounded-md w-[420px] h-[45px] mt-1 pl-[10px]"
+                      />
+                    </form>
+                  </td>
+                </tr>
+                <tr class="pt-1">
+                  <td>Email</td>
+                  <td class="pl-4">
+                    <form action="">
+                      <input
+                        type="text"
+                        placeholder="Email"
+                        class="font-normal bg-white border border-cBlue rounded-md w-[420px] h-[45px] mt-1 pl-[10px]"
+                      />
+                    </form>
+                  </td>
+                </tr>
+                <tr class="pt-1">
+                  <td>Pendidikan</td>
+                  <td class="pl-4">
+                    <form action="">
+                      <input
+                        type="text"
+                        placeholder="Pendidikan Terakhir"
+                        class="font-normal bg-white border border-cBlue rounded-md w-[420px] h-[45px] mt-1 pl-[10px]"
+                      />
+                    </form>
+                  </td>
+                </tr>
+              </table>
+            </th>
+            <th class="pl-[200px] align-top">
+              <img
+                src="/src/assets/Images/stock-photo.png"
+                alt="foto-diri"
+                class="w-[155px]"
+              />
+              <button
+                class="bg-bBlue text-lg text-white font-nunito font-extrabold h-[50px] w-[154px] rounded-md mt-3"
+              >
+                Upload Photo
+              </button>
+            </th>
+          </tr>
+        </table>
+        <a href="/src/admin-specific.html">
+          <button
+            class="font-nunito font-extrabold text-lg text-bBlue border-2 border-bBlue rounded-md w-[190px] py-[9px] ml-[190px] mt-4"
+          >
+            Cancel
+          </button>
+        </a>
+        <a href="/src/admin-specific.html">
+          <button
+            class="font-nunito font-extrabold text-lg text-white bg-dBlue w-[192px] py-[10px] ml-[33px] rounded-md"
+          >
+            Submit
+          </button>
+        </a>
+        <footer
+          class="bg-lBlue font-nunito text-bBlue font-normal text-sm py-[22px] text-center inset-x-0 bottom-0 mt-[90px]"
+        >
+          Copyright © 2023 Kemenag RI. All Right Reserved
+        </footer>
+        <!-- page content here -->
+        <label for="my-drawer-2" class="btn btn-primary drawer-button lg:hidden"
+          >Open Drawer</label
+        >
+      </div>
+      <div class="drawer-side">
+        <label for="my-drawer-2" class="drawer-overlay"></label>
+        <ul
+          class="menu p-4 w-[268px] bg-lgray text-dBlue font-nunito font-bold text-sm"
+        >
+          <!-- sidebar content here -->
+          <li class="text-2xl font-extrabold text-bBlue pt-6">
+            <a href="/src/admin-dashboard.html">Laporan Pegawai</a>
+          </li>
+          <li class="pl-2 mt-9">
+            <a href="/src/admin-dashboard.html"
+              ><img src="/src/assets/Images/home-logo.png" alt="home" />Home</a
+            >
+          </li>
+          <li class="pl-2 bg-lBlue">
+            <a href="/src/admin-data.html"
+              ><img
+                src="/src/assets/Images/data-logo.png"
+                alt="data_pegawai"
+              />Data Pegawai</a
+            >
+          </li>
+          <li class="pl-2 mt-2">
+            <a href="/src/login.html"
+              ><img src="/src/assets/Images/door-logo.png" alt="logout" />LOG
+              OUT</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
