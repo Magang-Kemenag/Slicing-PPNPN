@@ -27,7 +27,7 @@
           Dashboard
         </div>
         <div class="shadow-lg rounded-lg overflow-hidden mx-[28px] mt-[33px]">
-          <canvas class="p-10 bg-white" id="chartLine"></canvas>
+          <canvas class="p-10 bg-white w-[973px]" id="chartLine"></canvas>
         </div>
         <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
         <script>
@@ -159,7 +159,8 @@
               <tr>
                 <th class="w-[248px]">lorem ipsum dolor sit amet...</td>
                 <th class="w-[111px]">
-                  <a href="#" class="underline">lihat</a>
+                  <!-- <a href="#" class="underline">lihat</a> -->
+                  <label for="admin-lapor" class="underline hover:text-black">lihat</label>
                 </td>
               </tr>
             </table>
@@ -175,7 +176,8 @@
                 <tr>
                   <th class="w-[248px]">menata buku-buku laporan...</td>
                   <th class="w-[111px]">
-                    <a href="#" class="underline">lihat</a>
+                    <!-- <a href="#" class="underline">lihat</a> -->
+                    <label for="admin-lapor" class="underline hover:text-black">lihat</label>
                   </td>
                 </tr>
               </table>
@@ -191,7 +193,8 @@
                 <tr>
                   <th class="w-[248px]">Menyiapkan ruangan sidang...</td>
                   <th class="w-[111px]">
-                    <a href="#" class="underline">lihat</a>
+                    <!-- <a href="#" class="underline">lihat</a> -->
+                    <label for="admin-lapor" class="underline hover:text-black">lihat</label>
                   </td>
                 </tr>
               </table>
@@ -207,7 +210,8 @@
                 <tr>
                   <th class="w-[248px]">lorem ipsum dolor sit amet...</td>
                   <th class="w-[111px]">
-                    <a href="#" class="underline">lihat</a>
+                    <!-- <a href="#" class="underline">lihat</a> -->
+                    <label for="admin-lapor" class="underline hover:text-black">lihat</label>
                   </td>
                 </tr>
               </table>
@@ -223,7 +227,8 @@
                 <tr>
                   <th class="w-[248px]">lorem ipsum dolor sit amet...</td>
                   <th class="w-[111px]">
-                    <a href="#" class="underline">lihat</a>
+                    <!-- <a href="#" class="underline">lihat</a> -->
+                    <label for="admin-lapor" class="underline hover:text-black">lihat</label>
                   </td>
                 </tr>
               </table>
@@ -239,7 +244,8 @@
                 <tr>
                   <th class="w-[248px]">lorem ipsum dolor sit amet...</td>
                   <th class="w-[111px]">
-                    <a href="#" class="underline">lihat</a>
+                    <!-- <a href="#" class="underline">lihat</a> -->
+                    <label for="admin-lapor" class="underline hover:text-black">lihat</label>
                   </td>
                 </tr>
               </table>
@@ -259,13 +265,13 @@
       <div class="drawer-side">
         <label for="my-drawer-2" class="drawer-overlay"></label>
         <ul
-          class="menu p-4 w-[268px] bg-lgray text-dBlue font-nunito font-bold text-sm"
+          class="menu pl-4 w-[268px] bg-lgray text-dBlue font-nunito font-bold text-sm"
         >
           <!-- sidebar content here -->
           <li class="text-2xl font-extrabold text-bBlue pt-6">
             <a href="/src/admin-dashboard.html">Laporan Pegawai</a>
           </li>
-          <li class="pl-2 mt-9">
+          <li class="pl-2 mt-9 bg-lBlue">
             <a href="/src/admin-dashboard.html"
               ><img src="/src/assets/Images/home-logo.png" alt="home" />Home</a
             >
@@ -286,6 +292,27 @@
           </li>
         </ul>
       </div>
+    </div>
+    <input type="checkbox" id="admin-lapor" class="modal-toggle">
+    <div class="modal">
+      <div class="modal-box bg-white font-nunito w-11/12 max-w-[937px] pl-12">
+        <label for="admin-lapor" class="btn btn-sm btn-circle absolute right-2 top-2 border-white bg-white"><img src="/src/assets/Images/close-logo.png" alt="close"></label>
+        <table>
+          <tr>
+            <th class="text-left">
+              <div class="font-extrabold text-bBlue text-xl">11/01/23</div>
+              <div class="font-bold text-bBlue text-xl pt-5">Pieter Schrodinger</div>
+              <div class="font-bold text-xl text-bBlue pt-1">07:30</div>
+              <div class="font-bold text-xl text-bBlue pt-1">15:30</div>
+              <div class="modal-action">
+            </th>
+            <th class="items-end">
+              <img src="/src/assets/Images/stock-photo.png" alt="picture" class="w-[120px] ml-[508px] pt-[63px]">
+            </th>
+          </tr>
+        </table>
+        <textarea name="laporan" id="report" cols="30" rows="10" class="mt-4 pl-[10px] pt-[10px] text-bBlue bg-white w-[802px] h-[150px] font-semibold border-2 border-bBlue rounded-md" placeholder="Tulis Laporan Anda">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident repudiandae, deserunt vitae magnam saepe fuga atque perspiciatis totam accusamus, consectetur maxime, architecto maiores! Cum illo voluptatum architecto necessitatibus ratione harum!</textarea>
+        </div>
     </div>
   </body>
 </html>
