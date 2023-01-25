@@ -3466,6 +3466,18 @@ html {
   margin-bottom: 0.75rem;
 }
 
+.ml-\[400px\] {
+  margin-left: 400px;
+}
+
+.ml-\[900px\] {
+  margin-left: 900px;
+}
+
+.ml-\[920px\] {
+  margin-left: 920px;
+}
+
 .block {
   display: block;
 }
@@ -3656,6 +3668,14 @@ html {
 
 .w-full {
   width: 100%;
+}
+
+.w-\[200px\] {
+  width: 200px;
+}
+
+.w-\[150px\] {
+  width: 150px;
 }
 
 .max-w-\[937px\] {
